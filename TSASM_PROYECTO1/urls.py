@@ -20,6 +20,6 @@ from app2_ts import views as v2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vista3/',v2.vista3 ),
+    path('vista3/', v2.vista3 ),
     path('vista4/', v2.vista4),
 ]
