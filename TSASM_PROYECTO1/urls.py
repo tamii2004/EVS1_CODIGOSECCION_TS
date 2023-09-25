@@ -18,8 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from app1_ts import views as v1
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v1.vista1),
     path('vista2/', v1.vista2),
+    path('vista3/', v2.vista3 ),
+    path('vista4/', v2.vista4),
+
 ]
